@@ -41,7 +41,7 @@ def load_data(path: str):
     return df
 
 # CSV 경로는 필요하면 수정하세요.
-DATA_PATH = "/workspaces/myblank-apple/ugv_mission_dataset_220rows.csv"
+DATA_PATH = "ugv_mission_dataset_220rows.csv"
 df = load_data(DATA_PATH)
 
 # 숫자형 → 범주형(지형 타입 라벨) 예시
